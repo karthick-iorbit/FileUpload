@@ -1,0 +1,457 @@
+{
+	"id": "a1d4f3b4-30b1-4fec-18e7-2618f319650c",
+	"name": "Device & Measurement",
+	"description": "",
+	"order": [
+		"c5c7bb82-b6a6-fefe-196c-4042c0ddc4c6",
+		"7e1761da-8db2-7716-1e9f-51424c803c7b",
+		"da70bd4e-8317-696d-4622-90ba1011bd9e",
+		"b0ec752b-9d9d-632b-a6de-7dddeac26c82",
+		"69f76b12-9b48-0c3e-64bb-c1910fd76566",
+		"836f91f0-2875-3b3d-d260-7b2868bcc28c",
+		"d6103182-d732-7a48-0d41-07b744389878",
+		"698765c6-2ff9-5d17-1cf6-f5db1e648a73",
+		"89347291-6be0-1b4d-3e63-74775fbf6347",
+		"ad154750-55df-9a86-608b-7939219df98f"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1618203890071,
+	"owner": "14558481",
+	"public": false,
+	"requests": [
+		{
+			"id": "698765c6-2ff9-5d17-1cf6-f5db1e648a73",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoiaW9yYml0bWFpbGVyQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJpYXQiOjE2MTc3ODY1NTJ9.A7gV1j6k0axyRNggvXf3TetEVZAVQB4yFAEnuYLEk06wdZLSYLHDjLPt0whiiDMrrkye8f79vbDeI0XnndwBoQ\nContent-Type: application/json\nToken: 12345\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoiaW9yYml0bWFpbGVyQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJpYXQiOjE2MTc3ODY1NTJ9.A7gV1j6k0axyRNggvXf3TetEVZAVQB4yFAEnuYLEk06wdZLSYLHDjLPt0whiiDMrrkye8f79vbDeI0XnndwBoQ",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Token",
+					"value": "12345",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8082/api/v1/devices/b8053c35-9b4d-11eb-ac11-c3cdd18eb224/measurements\n",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "a1d4f3b4-30b1-4fec-18e7-2618f319650c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8082/api/v1/devices/b8053c35-9b4d-11eb-ac11-c3cdd18eb224/measurements\n",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1618211807123,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "   {\n                  \"deviceremoteid\":\"Devcd\",\n                   \"patientid\":\"258db4dc-2a56-11eb-9e3e-f9ad189eb3a3\",\n                   \"physicianid\":\"632d1ab5-24db-11eb-af88-c18f1944af23\",\n                   \"macid\":\"2W£W\",\n                   \"measurementtype\":\"Action\",\n                   \"instrumentlocation\":\"hand\",\n                   \"measurementdate\":\"24-11-2020\",\n                   \"measurementname\":\"abc\",\n                   \"startime\":\"10.00\",\n                   \"elapsedtime\":\"10.30\",\n              \n                   \"measurements\":\n                    [\n                    {\n                    \"groupName\":\"abc\",\n                  \n                    \"parameters\":[\n                        {\n                       \"paramId\":\"b2cf2743-151c-11eb-85a7-7f06da91934e\",\n                       \"measuredValues\":\"24\"\n                         },\n                       {\n                      \"paramId\":\"a11217f7-2416-11eb-8cdb-17655a29ec07\",\n                      \"measuredValues\":\"56\"\n                         }\n                    ]},\n                    {\n                    \"groupName\":\"abbc\",\n                  \n                    \"parameters\":[\n                        {\n                       \"paramId\":\"163e9549-1527-11eb-85a7-510c6efb4f89\",\n                       \"measuredValues\":\"60\"\n                         },\n                       {\n                      \"paramId\":\"bce86220-190c-11eb-89d6-7f997fe0f6f4\",\n                      \"measuredValues\":\"52\"\n                         }\n                    ]}\n                    ]\n   }\n \n \n"
+		},
+		{
+			"id": "69f76b12-9b48-0c3e-64bb-c1910fd76566",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoiaW9yYml0bWFpbGVyQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJpYXQiOjE2MTc3ODY1NTJ9.A7gV1j6k0axyRNggvXf3TetEVZAVQB4yFAEnuYLEk06wdZLSYLHDjLPt0whiiDMrrkye8f79vbDeI0XnndwBoQ\nToken: 12345\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoiaW9yYml0bWFpbGVyQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJpYXQiOjE2MTc3ODY1NTJ9.A7gV1j6k0axyRNggvXf3TetEVZAVQB4yFAEnuYLEk06wdZLSYLHDjLPt0whiiDMrrkye8f79vbDeI0XnndwBoQ",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Token",
+					"value": "12345",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "    http://localhost:8082/api/v1/devices/b8053c35-9b4d-11eb-ac11-c3cdd18eb224/patients/69727807-86ee-11eb-bff2-2b65660be5a1\n",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "a1d4f3b4-30b1-4fec-18e7-2618f319650c",
+			"data": null,
+			"dataMode": "params",
+			"name": "    http://localhost:8082/api/v1/devices/b8053c35-9b4d-11eb-ac11-c3cdd18eb224/patients/69727807-86ee-11eb-bff2-2b65660be5a1\n",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1618211774874,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "7e1761da-8db2-7716-1e9f-51424c803c7b",
+			"headers": "Content-Type: application/json\nToken: 12345\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoiaW9yYml0bWFpbGVyQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJpYXQiOjE2MTc3ODY1NTJ9.A7gV1j6k0axyRNggvXf3TetEVZAVQB4yFAEnuYLEk06wdZLSYLHDjLPt0whiiDMrrkye8f79vbDeI0XnndwBoQ\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Token",
+					"value": "12345",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoiaW9yYml0bWFpbGVyQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJpYXQiOjE2MTc3ODY1NTJ9.A7gV1j6k0axyRNggvXf3TetEVZAVQB4yFAEnuYLEk06wdZLSYLHDjLPt0whiiDMrrkye8f79vbDeI0XnndwBoQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8082/api/v1/devices/abdff3a2-9b4d-11eb-ac11-6b2feebc5740",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "a1d4f3b4-30b1-4fec-18e7-2618f319650c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8082/api/v1/devices/abdff3a2-9b4d-11eb-ac11-6b2feebc5740",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1618211708816,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "          {\n                 \n                   \"modelName\":\"R1e2\",\n                   \"manufacturer\":\"LMTkj\",\n                   \"version\":\"2.0\",\n                   \"deviceClass\":\"\",\n                   \"tags\":\"ad\",\n                   \"parameterGroup\":\n                    [\n                    {\n                   \n                    \"parameters\":[\n                        {\n                       \"paramId\":\"paramabc11\",\n                       \"oldparamId\":\"paramabc11\"\n                         },\n                       {\n                      \"paramId\":\"paramabc22\",\n                      \"oldparamId\":\"paramabc22\"\n                         }\n                    ]}\n \n \n \n]\n}\n"
+		},
+		{
+			"id": "836f91f0-2875-3b3d-d260-7b2868bcc28c",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoiaW9yYml0bWFpbGVyQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJpYXQiOjE2MTc3ODY1NTJ9.A7gV1j6k0axyRNggvXf3TetEVZAVQB4yFAEnuYLEk06wdZLSYLHDjLPt0whiiDMrrkye8f79vbDeI0XnndwBoQ\nToken: 12345\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoiaW9yYml0bWFpbGVyQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJpYXQiOjE2MTc3ODY1NTJ9.A7gV1j6k0axyRNggvXf3TetEVZAVQB4yFAEnuYLEk06wdZLSYLHDjLPt0whiiDMrrkye8f79vbDeI0XnndwBoQ",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Token",
+					"value": "12345",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "    http://localhost:8082/api/v1/devices/b8053c35-9b4d-11eb-ac11-c3cdd18eb224/companies/8bab2d27-87df-11eb-bff2-47457eceaa53\n",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "a1d4f3b4-30b1-4fec-18e7-2618f319650c",
+			"data": null,
+			"dataMode": "params",
+			"name": "    http://localhost:8082/api/v1/devices/b8053c35-9b4d-11eb-ac11-c3cdd18eb224/companies/8bab2d27-87df-11eb-bff2-47457eceaa53\n",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1618211785217,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "89347291-6be0-1b4d-3e63-74775fbf6347",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoiaW9yYml0bWFpbGVyQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJpYXQiOjE2MTc3ODY1NTJ9.A7gV1j6k0axyRNggvXf3TetEVZAVQB4yFAEnuYLEk06wdZLSYLHDjLPt0whiiDMrrkye8f79vbDeI0XnndwBoQ\nToken: 12345\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoiaW9yYml0bWFpbGVyQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJpYXQiOjE2MTc3ODY1NTJ9.A7gV1j6k0axyRNggvXf3TetEVZAVQB4yFAEnuYLEk06wdZLSYLHDjLPt0whiiDMrrkye8f79vbDeI0XnndwBoQ",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Token",
+					"value": "12345",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8082/api/v1/devices/b8053c35-9b4d-11eb-ac11-c3cdd18eb224/measurements?measurementtype=action\n",
+			"queryParams": [
+				{
+					"key": "measurementtype",
+					"value": "action\n",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "a1d4f3b4-30b1-4fec-18e7-2618f319650c",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8082/api/v1/devices/b8053c35-9b4d-11eb-ac11-c3cdd18eb224/measurements?measurementtype=action\n",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1618211821276,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "ad154750-55df-9a86-608b-7939219df98f",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoiaW9yYml0bWFpbGVyQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJpYXQiOjE2MTc3ODY1NTJ9.A7gV1j6k0axyRNggvXf3TetEVZAVQB4yFAEnuYLEk06wdZLSYLHDjLPt0whiiDMrrkye8f79vbDeI0XnndwBoQ\nToken: 12345\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoiaW9yYml0bWFpbGVyQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJpYXQiOjE2MTc3ODY1NTJ9.A7gV1j6k0axyRNggvXf3TetEVZAVQB4yFAEnuYLEk06wdZLSYLHDjLPt0whiiDMrrkye8f79vbDeI0XnndwBoQ",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Token",
+					"value": "12345",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8082/api/v1/patients/258db4dc-2a56-11eb-9e3e-f9ad189eb3a3/measurements?measurementtype=action",
+			"queryParams": [
+				{
+					"key": "measurementtype",
+					"value": "action",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "a1d4f3b4-30b1-4fec-18e7-2618f319650c",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8082/api/v1/patients/258db4dc-2a56-11eb-9e3e-f9ad189eb3a3/measurements?measurementtype=action",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1618211851066,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "b0ec752b-9d9d-632b-a6de-7dddeac26c82",
+			"headers": "Token: 12345\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoiaW9yYml0bWFpbGVyQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJpYXQiOjE2MTc3ODY1NTJ9.A7gV1j6k0axyRNggvXf3TetEVZAVQB4yFAEnuYLEk06wdZLSYLHDjLPt0whiiDMrrkye8f79vbDeI0XnndwBoQ\n",
+			"headerData": [
+				{
+					"key": "Token",
+					"value": "12345",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoiaW9yYml0bWFpbGVyQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJpYXQiOjE2MTc3ODY1NTJ9.A7gV1j6k0axyRNggvXf3TetEVZAVQB4yFAEnuYLEk06wdZLSYLHDjLPt0whiiDMrrkye8f79vbDeI0XnndwBoQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8082/api/v1/devices?DeviceName=ppe2&GroupName=a&Type=measurement&batchsize=12&offset=0",
+			"queryParams": [
+				{
+					"key": "DeviceName",
+					"value": "ppe2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "GroupName",
+					"value": "a",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Type",
+					"value": "measurement",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "batchsize",
+					"value": "12",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "offset",
+					"value": "0",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "a1d4f3b4-30b1-4fec-18e7-2618f319650c",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8082/api/v1/devices?DeviceName=ppe2&GroupName=a&Type=measurement&batchsize=12&offset=0",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1618211731958,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "c5c7bb82-b6a6-fefe-196c-4042c0ddc4c6",
+			"headers": "Content-Type: application/json\nToken: 12345\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoiaW9yYml0bWFpbGVyQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJpYXQiOjE2MTc3ODY1NTJ9.A7gV1j6k0axyRNggvXf3TetEVZAVQB4yFAEnuYLEk06wdZLSYLHDjLPt0whiiDMrrkye8f79vbDeI0XnndwBoQ\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Token",
+					"value": "12345",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoiaW9yYml0bWFpbGVyQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJpYXQiOjE2MTc3ODY1NTJ9.A7gV1j6k0axyRNggvXf3TetEVZAVQB4yFAEnuYLEk06wdZLSYLHDjLPt0whiiDMrrkye8f79vbDeI0XnndwBoQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8082/api/v1/devices",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "a1d4f3b4-30b1-4fec-18e7-2618f319650c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8082/api/v1/devices",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1618211694511,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\n   \"deviceName\":\"ppe1\",\n   \"modelName\":\"R12\",\n   \"manufacturer\":\"LMT\",\n   \"version\":\"2\",\n   \"deviceClass\":\"\",\n   \"tags\":\"ad\",\n   \n         \"parameterGroup\":\n                     [{\n                     \"groupName\":\"a\",\n                      \"type\":\"measurement\",\n                     \"parameters\":[\n                         {\n                        \"paramId\":\"05f8b809-984a-11eb-95fb-bbc78e9d7902\"\n                          },\n                        {\n                       \"paramId\":\"05f8b809-984a-11eb-95fb-bbc78e9d7902\"\n                      }\n                     ]\n                     },\n                       {\n                     \"groupName\":\"b\",\n                      \"type\":\"settings\",\n                     \"parameters\":[\n                         {\n                        \"paramId\":\"163e9549-1527-11eb-85a7-510c6efb4f89\"\n                          },\n                        {\n                       \"paramId\":\"163e9549-1527-11eb-85a7-510c6efb4f89\"\n                          }\n                     ]\n                       \t\n                       }\n                     ]\n\n}\n\n\n\n                                      "
+		},
+		{
+			"id": "d6103182-d732-7a48-0d41-07b744389878",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoiaW9yYml0bWFpbGVyQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJpYXQiOjE2MTc3ODY1NTJ9.A7gV1j6k0axyRNggvXf3TetEVZAVQB4yFAEnuYLEk06wdZLSYLHDjLPt0whiiDMrrkye8f79vbDeI0XnndwBoQ\n//Token: \n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoiaW9yYml0bWFpbGVyQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJpYXQiOjE2MTc3ODY1NTJ9.A7gV1j6k0axyRNggvXf3TetEVZAVQB4yFAEnuYLEk06wdZLSYLHDjLPt0whiiDMrrkye8f79vbDeI0XnndwBoQ",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Token",
+					"value": "",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "  http://localhost:8082/api/v1/devices/b8053c35-9b4d-11eb-ac11-c3cdd18eb224/physicians/0c265f69-86eb-11eb-bff2-0fe7f9121ac5\n",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "a1d4f3b4-30b1-4fec-18e7-2618f319650c",
+			"data": null,
+			"dataMode": "params",
+			"name": "  http://localhost:8082/api/v1/devices/b8053c35-9b4d-11eb-ac11-c3cdd18eb224/physicians/0c265f69-86eb-11eb-bff2-0fe7f9121ac5\n",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1618211793435,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "da70bd4e-8317-696d-4622-90ba1011bd9e",
+			"headers": "Token: 12345\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoiaW9yYml0bWFpbGVyQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJpYXQiOjE2MTc3ODY1NTJ9.A7gV1j6k0axyRNggvXf3TetEVZAVQB4yFAEnuYLEk06wdZLSYLHDjLPt0whiiDMrrkye8f79vbDeI0XnndwBoQ\n",
+			"headerData": [
+				{
+					"key": "Token",
+					"value": "12345",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoiaW9yYml0bWFpbGVyQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJpYXQiOjE2MTc3ODY1NTJ9.A7gV1j6k0axyRNggvXf3TetEVZAVQB4yFAEnuYLEk06wdZLSYLHDjLPt0whiiDMrrkye8f79vbDeI0XnndwBoQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8082/api/v1/devices/abdff3a2-9b4d-11eb-ac11-6b2feebc5740",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "a1d4f3b4-30b1-4fec-18e7-2618f319650c",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8082/api/v1/devices/abdff3a2-9b4d-11eb-ac11-6b2feebc5740",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1618211719292,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
